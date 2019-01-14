@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.voipfuture.fourwins</groupId>
-  <artifactId>fourwins-parent</artifactId>
-  <version>1.0.2</version>
+  <groupId>com.voipfuture.connectfour</groupId>
+  <artifactId>connectfour-parent</artifactId>
+  <version>1.0.3</version>
   <packaging>pom</packaging>
   <licenses>
     <license>
@@ -15,7 +15,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     </license>
   </licenses>
   <scm>
-    <developerConnection>scm:git:ssh://git@github.com:voipfuture/fourwins-parent.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com:voipfuture/connectfour-parent.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <dependencyManagement>
@@ -38,14 +38,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>com.voipfuture.fourwins</groupId>
-        <artifactId>fourwins-core</artifactId>
-        <version>1.0.2</version>
+        <groupId>com.voipfuture.connectfour</groupId>
+        <artifactId>connectfour-core</artifactId>
+        <version>1.0.3</version>
       </dependency>
       <dependency>
-        <groupId>com.voipfuture.fourwins</groupId>
-        <artifactId>fourwins-core</artifactId>
-        <version>1.0.2</version>
+        <groupId>com.voipfuture.connectfour</groupId>
+        <artifactId>connectfour-core</artifactId>
+        <version>1.0.3</version>
         <classifier>tests</classifier>
         <type>test-jar</type>
         <scope>test</scope>
