@@ -14,10 +14,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <comments>A business-friendly OSS license</comments>
     </license>
   </licenses>
-  <scm>
-    <developerConnection>scm:git:ssh://git@github.com:voipfuture/connectfour-parent.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
   <dependencyManagement>
     <dependencies>
       <dependency>
